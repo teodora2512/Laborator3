@@ -29,7 +29,12 @@ Parabola p = new Parabola(2, -4, 1);
 System.out.println("Vârful parabolei: " + p.getVarf());
 System.out.println("Lungimea segmentului între puncte: " + Parabola.calculeazaSegment(punct1, punct2));
 
-#🛒 Exercițiul 2: Sistem de Gestiune a Produselor (Clasa Produs)
+Punct punct1 = new Punct(1, 2);
+Punct punct2 = new Punct(3, 6);
+System.out.println("Lungimea segmentului între puncte: " + Parabola.calculeazaSegment(punct1, punct2));
+```
+
+##🛒 Exercițiul 2: Sistem de Gestiune a Produselor (Clasa Produs)
 🎯 Obiectiv
 Crearea unui sistem de gestiune a stocului cu meniu interactiv, citire din CSV și calcularea încasărilor.
 🛠️ Competențe Demonstrate
@@ -48,12 +53,15 @@ Filtrarea și afișarea produselor expirate.
 Interfață Utilizator:
 Meniu interactiv în consolă cu do-while și switch.
 🔹 Exemplu de meniu
+```
 1. Afișează toate produsele
 2. Vinde produs
 3. Afișează produse expirate
 4. Export stoc
 5. Ieșire
-'''
+```
+
+```
 src/
 ├─ exercitiu1/
 │  ├─ Parabola.java
@@ -64,7 +72,7 @@ src/
 │  └─ produse.csv
 └─ util/
    └─ Utils.java
-'''
+```
 👩‍💻 Autor
 Teodora Oțelariu
 Lucrare Java – Anul III
